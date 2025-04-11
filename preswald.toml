@@ -1,0 +1,20 @@
+[project]
+title = "Student depression and mental health analysis"
+version = "0.1.0"
+port = 8501
+slug = "mental-health-436244"
+entrypoint = "hello.py"    
+
+[branding]
+name = "Mind Over Matter"
+logo = "images/MindOverMatter.png"
+favicon = "images/favicon-mom.png"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/studentDepressionDataset.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
